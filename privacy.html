@@ -20,28 +20,30 @@ li { margin: 6px 0; }
 <body>
 <main>
 <h1>Fekri extension: your data</h1>
-<p class="lede">The Fekri browser extension copies the chats you choose into your own Fekri. Today it works on WhatsApp Web. Updated 11 November 2026.</p>
+<p class="lede">The Fekri browser extension works in your Chrome for your own Fekri account. It copies the chats you choose, keeps your Slack connected and does tasks you ask for on the page you're on. Updated 14 November 2026.</p>
 
 <h2>Who runs it</h2>
 <p>The Collective Mind FZE, Sharjah Publishing City Free Zone, UAE. Questions and deletion requests: <a href="mailto:h.hassan@thecollectivemind.me">h.hassan@thecollectivemind.me</a>.</p>
 
 <h2>What it reads</h2>
 <ul>
-<li>The messages in the chats you choose on WhatsApp Web: who wrote them, when, and the text. Photos, voice notes and documents come through as a label, not the file.</li>
-<li>It only reads what WhatsApp Web already shows in your browser. It never types, never sends, and never opens a chat with unread messages, so no one gets a read receipt from it.</li>
-<li>It reads nothing on any other website.</li>
+<li><b>WhatsApp Web</b>, when you turn it on: the messages in the chats you open, with who wrote them and when. Photos, voice notes and documents come through as a label, not the file. It never opens a chat with unread messages, so no one gets a read receipt from it, and it never sends anything.</li>
+<li><b>Slack</b>, when you turn it on: Slack's own sign-in in your Chrome (the slack.com sign-in cookie and your workspace list), so your Fekri can read your Slack without a second sign-in. No other cookies are read.</li>
+<li><b>The page you're on</b>, only when you ask Fekri to do something there: its address, title, visible text and the things you can click or type in. Fekri does one step at a time and asks you before it sends, posts, submits, buys, books or deletes anything. It never types passwords, card numbers or ID numbers.</li>
+<li>It reads nothing on any other page and nothing when you haven't asked.</li>
 </ul>
 
 <h2>Where it sends it</h2>
 <ul>
-<li>Only to the Fekri address you enter, using the key you made in your Fekri. Nothing goes to us, to advertisers or to anyone else.</li>
-<li>The connection is encrypted (HTTPS). The key can only add messages to your Fekri; it cannot read your messages back.</li>
+<li>Only to the Fekri you signed in to (my.fekri.app unless you chose another address), and only into your own space there. Each person signs in to their own Fekri; nothing goes to anyone else's.</li>
+<li>To do a task on a page, the page details go to your Fekri, whose AI works out the next step. Nothing goes to advertisers or anyone else.</li>
+<li>The connection is encrypted (HTTPS).</li>
 </ul>
 
 <h2>What it keeps in your browser</h2>
 <ul>
-<li>Your Fekri address, your key, and a count of copied messages, in this Chrome profile only.</li>
-<li>Disconnect in the extension removes them. Removing the extension removes everything it kept.</li>
+<li>Your Fekri address, your sign-in, a WhatsApp key that can only add messages, your on/off switches and a count of copied messages, in this Chrome profile only.</li>
+<li>Sign out removes them. Removing the extension removes everything it kept.</li>
 </ul>
 
 <h2>What it never does</h2>
@@ -53,7 +55,7 @@ li { margin: 6px 0; }
 </ul>
 
 <h2>Inside your Fekri</h2>
-<p>Once the messages reach your Fekri, the Fekri privacy terms apply: your copy and its database are yours alone, message contents are encrypted at rest, and disconnecting the account deletes what was copied from it. To delete your whole Fekri, email us and we remove it within 7 days.</p>
+<p>Once data reaches your Fekri, the Fekri privacy terms apply: your space is yours alone, message contents are encrypted at rest, and disconnecting an account deletes what was copied from it. To delete your whole Fekri, email us and we remove it within 7 days.</p>
 
 <h2>Chrome Web Store</h2>
 <p>The use of information received by this extension follows the Chrome Web Store User Data Policy, including the Limited Use requirements.</p>
